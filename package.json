@@ -1,0 +1,24 @@
+{
+  "name": "binary-protocol-example",
+  "version": "1.0.0",
+  "description": "A toy example of a custom binary protocol for exchanging structured data between a client and a server with Socket.io",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jerenaux/binary-protocol-example.git"
+  },
+  "author": "Jerome Renaux",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jerenaux/binary-protocol-example/issues"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3"
+  },
+  "homepage": "https://github.com/Jerenaux/binary-protocol-example#readme"
+}
